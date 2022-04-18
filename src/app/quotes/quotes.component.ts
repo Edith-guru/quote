@@ -11,6 +11,10 @@ export class QuotesComponent implements OnInit {
     new Quote(1, 'Change is the only constant in life.', 'Heraclitus, the Greek Philosopher', 'Mimi Kesa', new Date(2022,4,18)),
     new Quote(2, 'When you have something to say, silence is a lie.', 'Jordan Peterson', 'Anonymous', new Date(2022,4,12))
   ];
+
+  viewDetails(index: any){
+    this.quotes[index].showDetail = !this.quotes[index].showDetail
+  }
   constructor() { }
 
   ngOnInit(): void {
