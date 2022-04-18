@@ -8,12 +8,8 @@ import { Quote } from '../quote';
 })
 export class QuotesComponent implements OnInit {
   quotes:Quote[] = [
-    {id:1, name:'Watch finding Nemo',description:'Find an online version and watch merlin find his son'},
-    {id:2,name:'Buy Cookies',description:'I have to buy cookies for the parrot'},
-    {id:3,name:'Get new Phone Case',description:'Diana has her birthday coming up soon'},
-    {id:4,name:'Get Dog Food',description:'Pupper likes expensive sancks'},
-    {id:5,name:'Solve math homework',description:'Damn Math'},
-    {id:6,name:'Plot my world domination plan',description:'Cause I am an evil overlord'},
+    new Quote(1, 'Change is the only constant in life.', 'Heraclitus, the Greek Philosopher', 'Mimi Kesa', new Date(2022,4,18)),
+    new Quote(2, 'When you have something to say, silence is a lie.', 'Jordan Peterson', 'Anonymous', new Date(2022,4,12))
   ];
   constructor() { }
 

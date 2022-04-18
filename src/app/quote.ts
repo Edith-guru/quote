@@ -1,5 +1,6 @@
 export class Quote {
-    id!:number;
-    name!: string;
-    description!: string;
+  public showDetail:boolean;
+  constructor(public id:number, public text:string, public author:string, public submitName:string, public postDate:Date){
+      this.showDetail=false;
+  }
   }
