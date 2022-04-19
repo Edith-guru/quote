@@ -2,7 +2,8 @@
 <div class="text-dark text-center container">
     <h3>Post a new quote</h3>
 
-    <form #addForm='ngForm' (ngSubmit)='submitQuote();'>
+    
+    <form (ngSubmit)='submitQuote();addForm.resetForm({})' #addForm='ngForm'>
         <div class="form-group">
             <label>Quote</label>
             <input type="text" placeholder="Your quote here..." class="form-control" required [(ngModel)]="newQuote.text" id="text" name="text" #text='ngModel' required>
