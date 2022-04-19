@@ -2,6 +2,10 @@
   <h2 class="nav-brand text-center">Quotes on Quotes</h2>
     <hr>
       <div class="row">
+        <div class="offset-1 col-md-5">
+            <app-quote-input-form (addQuote)="addAQuote($event)"></app-quote-input-form>
+        </div>
+
           <div class="col-md-6">
               <div *ngFor='let quote of quotes; let i = index' class="card">
                   <div>
