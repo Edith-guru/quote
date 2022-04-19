@@ -14,6 +14,7 @@
                       </div>
                   </div>
                   <br>
+                  <app-quote-details *ngIf='quote.showDetail' [quote]='quote' (seen)='hideQuote($event,i)'></app-quote-details>
               </div>
           </div>
       </div>
