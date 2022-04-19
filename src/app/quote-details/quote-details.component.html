@@ -1,10 +1,11 @@
+
 <div class="d-flex justify-content-around">
-    <button class="btn btn-primary" (click)="upVote()">
+    <button type="button" class="read_more_btn" (click)="upVote()"><i class="fa fa-thumbs-up"></i>
          <!-- remember to style -->
-         UpVote
+
         <span>&nbsp;{{numberOfLikes}}</span>
     </button>
-    <button class="btn btn-primary" (click)="downVote()">
+    <button type="button" class="read_more_btn" (click)="downVote()">
         <!-- remember to style -->
         Downvote
         <span>&nbsp;{{numberOfDislikes}}</span>
