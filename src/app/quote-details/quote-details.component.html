@@ -11,5 +11,4 @@
     </button>
     <button class="btn btn-outline-danger" (click)='deleteQuote(true)'>Delete</button>
 </div>
-<span class="text-muted"> &nbsp;&nbsp; Posted by: {{quote.submitName}} on {{quote.postDate|date}}</span><br>
-<h5 class="text-muted"> &nbsp;&nbsp;{{quote.postDate|timeCount}}</h5>
+<span class="text-muted"> &nbsp;&nbsp; Posted by: {{quote.submitName}}</span> <span class=" time text-muted">  Time:{{quote.postDate|timeCount}} </span><br>
