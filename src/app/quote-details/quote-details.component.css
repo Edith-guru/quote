@@ -20,3 +20,31 @@ button{
     font-size: 1rem;
     padding: 5px 16px;
   }
+.upvote{
+  background: linear-gradient(
+      140deg,
+      #29cc88 0%,
+      #35cf70 50%,
+      #30c756c7 75%
+    ) !important;
+    color: #fff;
+}
+.upvote:hover{
+  background: #fff !important;
+  color: #35cf70;
+}
+
+.downvote{
+  background: linear-gradient(
+    140deg,
+    #e06565 0%,
+    #d43838 50%,
+    #d62121 75%
+  ) !important;
+  color: #fff;
+}
+
+.downvote:hover{
+  background: #fff !important;
+  color: #d43838;
+}

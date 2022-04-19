@@ -1,13 +1,12 @@
 
 <div class="d-flex justify-content-around">
-    <button type="button" class="read_more_btn" (click)="upVote()"><i class="fa fa-thumbs-up"></i>
+    <button type="button" class="upvote" (click)="upVote()"><i class="fa fa-thumbs-up"></i>
          <!-- remember to style -->
 
         <span>&nbsp;{{numberOfLikes}}</span>
     </button>
-    <button type="button" class="read_more_btn" (click)="downVote()">
+    <button type="button" class="downvote" (click)="downVote()"><i class="fa fa-thumbs-down"></i>
         <!-- remember to style -->
-        Downvote
         <span>&nbsp;{{numberOfDislikes}}</span>
     </button>
     <button class="btn btn-outline-danger" (click)='deleteQuote(true)'>Delete</button>

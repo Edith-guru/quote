@@ -1,6 +1,7 @@
 button:hover{
     background: #fff !important;
     color: #309df0;
+    border:2px;
   }
 button{
     border: 0;
