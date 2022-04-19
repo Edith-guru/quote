@@ -1,3 +1,14 @@
-<p>
-    {{quote.text}}
-</p>
+<div class="d-flex justify-content-around">
+    <button class="btn" (click)="upVote()">
+         <!-- remember to style -->
+        <span>&nbsp;{{numberOfLikes}}</span>
+    </button>
+    <button class="btn" (click)="downVote()">
+        <!-- remember to style -->
+        <span>&nbsp;{{numberOfDislikes}}</span>
+    </button>
+    <button class="btn" (click)='deleteQuote(true)'>
+    </button>
+</div>
+<span class="text-muted"> &nbsp;&nbsp; Posted by: {{quote.submitName}} on {{quote.postDate|date}}</span><br>
+<!-- <h5 class="text-muted"> &nbsp;&nbsp;{{quote.postDate|timeCount}}</h5> -->
