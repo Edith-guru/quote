@@ -48,3 +48,7 @@ button{
   background: #fff !important;
   color: #d43838;
 }
+
+#trash{
+  padding:5px 20px;
+}
