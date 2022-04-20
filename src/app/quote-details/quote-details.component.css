@@ -4,21 +4,22 @@
 }
 button:hover{
     background: #fff !important;
-    color: #309df0;
+    color: grey;
   }
 button{
     border: 0;
     border-radius: 15px;
     background: linear-gradient(
       140deg,
-      #42c3ca 0%,
-      #42c3ca 50%,
-      #42c3cac7 75%
+      rgb(197, 196, 196) 0%,
+      rgb(218, 217, 217) 50%,
+      #fff 75%
     ) !important;
-    color: #fff;
+    color: #000;
     font-weight: 500;
     font-size: 1rem;
     padding: 5px 16px;
+    
   }
 .upvote{
   background: linear-gradient(
@@ -38,8 +39,8 @@ button{
   background: linear-gradient(
     140deg,
     #e06565 0%,
-    #d43838 50%,
-    #d62121 75%
+    #BB6464 50%,
+    #BB6464 75%
   ) !important;
   color: #fff;
 }
@@ -51,4 +52,7 @@ button{
 
 #trash{
   padding:5px 20px;
+}
+.posted{
+  font-size: smaller;
 }

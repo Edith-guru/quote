@@ -1,5 +1,5 @@
 
-<div class="d-flex justify-content-around">
+<div id="details" class="d-flex justify-content-around">
     <button type="button" class="upvote" (click)="upVote()"><i class="fa fa-thumbs-up"></i>
          <!-- remember to style -->
 
@@ -11,4 +11,6 @@
     </button>
     <button id="trash" class="btn btn-outline-danger" (click)='deleteQuote(true)'><i class="fa fa-trash" aria-hidden="true"></i></button>
 </div>
+<div class="posted">
 <span class="text-muted"> &nbsp;&nbsp; Posted by: {{quote.submitName}}</span> <span class=" time text-muted">  Time:{{quote.postDate|timeCount}} </span><br>
+</div>
