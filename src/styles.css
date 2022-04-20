@@ -168,6 +168,9 @@
       margin: 0 auto;
     }
   }
-  #form{
-      position: absolute;
+body{
+    /* ... */
+    background:
+      linear-gradient(to right, rgb(208, 245, 252), transparent),
+      url(https://grainy-gradients.vercel.app/noise.svg);
   }
