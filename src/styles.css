@@ -171,6 +171,6 @@
 body{
     /* ... */
     background:
-      linear-gradient(to right, rgb(208, 245, 252), transparent),
+      linear-gradient(to right, rgb(244, 249, 250), transparent),
       url(https://grainy-gradients.vercel.app/noise.svg);
   }
