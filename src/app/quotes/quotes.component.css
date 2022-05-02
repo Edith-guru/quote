@@ -15,4 +15,6 @@ padding: 0 10px;
     display: table;
     clear: both;
 }
-
+p{
+    margin: 0 0 7px;
+}
